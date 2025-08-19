@@ -1,0 +1,92 @@
+/* Reset default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 16px;
+}
+
+/* Center the container vertically and horizontally */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+}
+
+/* Container styling */
+.container {
+    /* width: 100%; */
+    max-width: 650px;
+    padding: 32px 24px;
+    text-align: left;
+    background-color: white;
+    margin: 25px 10px 15px 10px;
+    border-radius: 10px;
+}
+
+/* image picture */
+.image {
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 auto 24px auto;
+    display: block;
+}
+
+/* simple omelette */
+
+.container h1 {
+    margin-bottom: 3px;
+}
+
+.container p {
+    width: 100%;
+}
+
+/* Heading styles */
+.container h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+/* pink box */
+.pink {
+    background-color: hsl(330, 100%, 98%);
+    padding: 16px;
+}
+
+.pink ul {
+    list-style-position: inside;
+    margin-top: -3px;
+}
+
+.pink h2 {
+    color: hsl(332, 51%, 32%);
+}
+
+/* dotted list */
+
+li {
+    margin-left: 16px;
+    padding-left: 16px;
+}
+
+/* ol {
+    color: hsl(14, 45%, 36%);
+} */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+    
+}
+
+table .colored {
+    font-weight: 800;
+    color: hsl(14, 45%, 36%);
+}
